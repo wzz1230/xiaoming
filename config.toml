@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://wzz1230.github.io/xiaoming/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'TOODMING'
 theme = "splite"
 
 [params]
