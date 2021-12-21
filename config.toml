@@ -1,3 +1,73 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = "splite"
+
+[params]
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "pic1.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video1]
+      enable = true
+      mute = true
+    #   file = "videos/background.mp4"
+      youtubeId = "RQWzpQahgDg"
+
+    [params.visual.video2]
+      enable = true
+      mute = true
+    #   file = "videos/background.mp4"
+      youtubeId = "qzA4VMPF1oU"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "About Me"
+
+      [[params.links.list1.link]]
+        text = "Biography"
+        url = "biography"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "History"
+
+      [[params.links.list2.link]]
+        text = "Wings of Liberty"
+        url = "/history/wings"
+
+      [[params.links.list2.link]]
+        text = "Heart of the swarm"
+        url = "/history/heart"
+
+      [[params.links.list2.link]]
+        text = "Legacy of the void"
+        url = "/history/legacy"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "My matches"
+
+      [[params.links.list3.link]]
+        text = "VS Scarlett1"
+        url = "https://www.youtube.com/watch?v=NfbTFwsWSUY"
+
+      [[params.links.list3.link]]
+        text = "VS Scarlett2"
+        url = "https://www.youtube.com/watch?v=YrClGBD_hVg"
+
+      [[params.links.list3.link]]
+        text = "VS Scarlett3"
+        url = "https://www.youtube.com/watch?v=Nls-fWGWO_I"
