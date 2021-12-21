@@ -1,4 +1,4 @@
-baseURL = 'http://wzz1230.github.io/xiaoming/'
+baseURL = 'https://wzz1230.github.io/xiaoming/'
 languageCode = 'en-us'
 title = 'TOODMING'
 theme = "splite"
